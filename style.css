@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(148, 202, 201);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundInfo {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.scores {
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.message {
+    margin: 50px 0;
+    font-size: large;
+}
+
+.gameOverMessage {
+    margin-bottom: 100px;
+    font-size: x-large;
+    font-weight: 600;
+    min-height: 28px;
+}
+
+div {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 0 30px;
+}
